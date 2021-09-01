@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tripulacion",
+      "handler": "tripulacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tripulacion",
+      "handler": "tripulacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tripulacion",
+      "handler": "tripulacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

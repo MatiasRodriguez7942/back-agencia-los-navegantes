@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_secion_imagenes_secion_imagenes",
+  "info": {
+    "name": "secion-imagenes",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "Imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Url_boton": {
+      "type": "string"
+    }
+  }
+}

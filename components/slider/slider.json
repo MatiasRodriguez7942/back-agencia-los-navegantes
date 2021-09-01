@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_slider_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Imagen_slider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "titulo2": {
+      "type": "string"
+    },
+    "subtitulo2": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

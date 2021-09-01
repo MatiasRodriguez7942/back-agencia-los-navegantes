@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "tripulacions",
+  "info": {
+    "name": "Tripulacion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Subtitulo": {
+      "type": "string"
+    },
+    "Imagen_banner": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Descripcion": {
+      "type": "richtext"
+    }
+  }
+}
